@@ -36,3 +36,22 @@ img {
 button {
   font: inherit;
 }
+
+.address {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  text-underline-offset: 4px;
+  line-height: 24.3px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
